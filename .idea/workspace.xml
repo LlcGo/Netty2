@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c38f5e89-0ff8-4829-b6d0-64ced7fad9f9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/mevan/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\mevan\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TkR5SyaHhSP0BA0fyAuzKlxT6g" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c38f5e89-0ff8-4829-b6d0-64ced7fad9f9" name="Default Changelist" comment="" />
+      <created>1691584908743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691584908743</updated>
+      <workItem from="1691584911436" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="181" key="FileChooserDialogImpl" timestamp="1691585054796">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="580" y="181" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1691585054796" />
+    <state x="301" y="68" key="SettingsEditor" timestamp="1691584952147">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="301" y="68" key="SettingsEditor/0.0.1600.852@0.0.1600.852" timestamp="1691584952147" />
+    <state x="433" y="35" key="new project wizard" timestamp="1691584984820">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="433" y="35" key="new project wizard/0.0.1600.852@0.0.1600.852" timestamp="1691584984820" />
+  </component>
+</project>
