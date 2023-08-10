@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38f5e89-0ff8-4829-b6d0-64ced7fad9f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/MyChat/contant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/MyChat/forward/ServiceForward.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/MyChat/listen/ServiceListen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/MyChat/medol/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/MyChat/read/ServiceRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/Chat/GroupChatClinet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/Netty/client/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/Netty/client/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/Netty/service/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nio/src/main/java/Netty/service/MyServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Nio/pom.xml" afterDir="false" />
     </list>
@@ -58,6 +58,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chat" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\ideaJava\nettytwo" />
       <recent name="F:\ideaJava\nettytwo\doc" />
@@ -65,19 +68,22 @@
       <recent name="F:\ideaJava\nettytwo\Nio\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceListen">
-    <configuration default="true" type="lua.app" factoryName="Lua Application">
-      <option name="program" value="lua.exe" />
-      <option name="file" value="" />
-      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
-      <option name="debuggerType" value="1" />
-      <option name="params" value="" />
-      <option name="charset" value="UTF-8" />
-      <option name="showConsole" value="true" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Application.MyClient">
     <configuration name="GroupChatClinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chat.GroupChatClinet" />
+      <module name="Nio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupChatClinet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chat.GroupChatClinet2" />
       <module name="Nio" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NioHttp.NIOClient" />
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Netty.client.MyClient" />
       <module name="Nio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NioHttp.*" />
+          <option name="PATTERN" value="Netty.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NioHttp.NioService" />
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Netty.service.MyServer" />
       <module name="Nio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NioHttp.*" />
+          <option name="PATTERN" value="Netty.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +134,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceListen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyChat.listen.ServiceListen" />
-      <module name="Nio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyChat.listen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServiceListen" />
+        <item itemvalue="Application.MyClient" />
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.GroupChatClinet2" />
         <item itemvalue="Application.GroupChatClinet" />
         <item itemvalue="Application.GroupChatServer" />
-        <item itemvalue="Application.NIOClient" />
-        <item itemvalue="Application.NioService" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +179,7 @@
       <workItem from="1691584911436" duration="1429000" />
       <workItem from="1691587300553" duration="3093000" />
       <workItem from="1691627346277" duration="12000" />
-      <workItem from="1691669663170" duration="2558000" />
+      <workItem from="1691669663170" duration="6080000" />
     </task>
     <task id="LOCAL-00001" summary="重学 nio init">
       <created>1691585099912</created>
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691590318948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MyChat">
+      <created>1691672238528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691672238528</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,17 +211,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重学 nio init" />
     <MESSAGE value="重学 Nio 多人聊天室" />
-    <option name="LAST_COMMIT_MESSAGE" value="重学 Nio 多人聊天室" />
+    <MESSAGE value="MyChat" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyChat" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1691671180604">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="605" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1600.852@0.0.1600.852" timestamp="1691671180604" />
-    <state x="802" y="0" key="CommitChangelistDialog2" timestamp="1691590310651">
+    <state x="800" y="0" key="CommitChangelistDialog2" timestamp="1691672235176">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="802" y="0" key="CommitChangelistDialog2/0.0.1600.852@0.0.1600.852" timestamp="1691590310651" />
+    <state x="800" y="0" key="CommitChangelistDialog2/0.0.1600.852@0.0.1600.852" timestamp="1691672235176" />
     <state x="580" y="181" key="FileChooserDialogImpl" timestamp="1691669900181">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
@@ -224,38 +235,38 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="675" y="316" width="273" height="219" key="Github.ShareDialog/0.0.1600.852@0.0.1600.852" timestamp="1691585148704" />
-    <state width="1557" height="254" key="GridCell.Tab.0.bottom" timestamp="1691671091926">
+    <state width="1557" height="11" key="GridCell.Tab.0.bottom" timestamp="1691677966046">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.0.center" timestamp="1691671091926">
+    <state width="1557" height="11" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1691677966046" />
+    <state width="1557" height="11" key="GridCell.Tab.0.center" timestamp="1691677966046">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.0.left" timestamp="1691671091926">
+    <state width="1557" height="11" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1691677966046" />
+    <state width="1557" height="11" key="GridCell.Tab.0.left" timestamp="1691677966046">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.0.right" timestamp="1691671091926">
+    <state width="1557" height="11" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1691677966046" />
+    <state width="1557" height="11" key="GridCell.Tab.0.right" timestamp="1691677966046">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.1.bottom" timestamp="1691671091926">
+    <state width="1557" height="11" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1691677966046" />
+    <state width="1557" height="254" key="GridCell.Tab.1.bottom" timestamp="1691672642902">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.1.bottom/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.1.center" timestamp="1691671091926">
+    <state width="1557" height="254" key="GridCell.Tab.1.bottom/0.0.1600.852@0.0.1600.852" timestamp="1691672642902" />
+    <state width="1557" height="254" key="GridCell.Tab.1.center" timestamp="1691672642902">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.1.center/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.1.left" timestamp="1691671091926">
+    <state width="1557" height="254" key="GridCell.Tab.1.center/0.0.1600.852@0.0.1600.852" timestamp="1691672642902" />
+    <state width="1557" height="254" key="GridCell.Tab.1.left" timestamp="1691672642902">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.1.left/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
-    <state width="1557" height="254" key="GridCell.Tab.1.right" timestamp="1691671091926">
+    <state width="1557" height="254" key="GridCell.Tab.1.left/0.0.1600.852@0.0.1600.852" timestamp="1691672642902" />
+    <state width="1557" height="254" key="GridCell.Tab.1.right" timestamp="1691672642902">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1557" height="254" key="GridCell.Tab.1.right/0.0.1600.852@0.0.1600.852" timestamp="1691671091926" />
+    <state width="1557" height="254" key="GridCell.Tab.1.right/0.0.1600.852@0.0.1600.852" timestamp="1691672642902" />
     <state x="301" y="68" key="SettingsEditor" timestamp="1691584952147">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
