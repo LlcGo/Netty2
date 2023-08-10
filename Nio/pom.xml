@@ -12,5 +12,12 @@
     <groupId>com.lc</groupId>
     <artifactId>Nio</artifactId>
 
+    <dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.28</version>
+    </dependency>
+    </dependencies>
 
 </project>
